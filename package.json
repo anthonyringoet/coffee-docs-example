@@ -1,0 +1,19 @@
+{
+  "name": "coffee-docs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "foo.js",
+  "scripts": {
+    "coffee": "coffee -c foo.coffee",
+    "docs": "jsdoc foo.js",
+    "serve": "serve out",
+    "all": "npm run coffee && npm run docs && npm run serve"
+  },
+  "author": "Anthony Ringoet <anthonyringoet@gmail.com> (http://anthonyringoet.be)",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.12.2",
+    "jsdoc": "^3.4.3",
+    "serve": "^2.1.2"
+  }
+}
